@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 TOKEN = "1251613397:AAG_akn6CXfKQt94wwEELNojcsA_dJ9LZfU"
 
 def download(bot, update):
-    message = update.effective_message
+    #message = update.effective_message
     instagram_post = message.text
     if instagram_post=="/start":
         bot.send_chat_action(chat_id=update.message.chat_id, action="typing")
